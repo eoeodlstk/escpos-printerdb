@@ -674,6 +674,10 @@ KATAKANA:
     - "═╞╪╡◢◣◥◤♠♥♦♣●○╱╲"
     - "╳円年月日時分秒〒市区町村人▓\u00A0"
 
+UTF-8:
+  iconv: UTF-8
+  python_encode: utf-8
+
 Unknown:
   name: Unknown
   notes: Code page that has not yet been identified.

@@ -240,6 +240,15 @@
             "name": "CP932",
             "python_encode": "cp932"
         },
+        "CP936": {
+            "iconv": "CP936",
+            "name": "CP936"
+        },
+        "CP949": {
+            "iconv": "CP949",
+            "name": "CP949",
+            "python_encode": "cp949"
+        },
         "ISO_8859-1": {
             "iconv": "ISO_8859-1",
             "name": "ISO_8859-1",
@@ -345,6 +354,11 @@
                 " \u1ee6\u0168\u00da\u1ee4\u1eea\u1eec\u1eee\u1ee8\u1ef0\u1ef2\u1ef6\u1ef8\u00dd\u1ef4 "
             ],
             "name": "Vietnamese TCVN-3 1"
+        },
+        "UTF-8": {
+            "iconv": "UTF-8",
+            "name": "UTF-8",
+            "python_encode": "utf-8"
         },
         "Unknown": {
             "name": "Unknown",
@@ -2575,6 +2589,89 @@
             },
             "name": "TM-T88V",
             "notes": "Epson TM-T88V profile\n",
+            "vendor": "Epson"
+        },
+        "TM-T88VI": {
+            "codePages": {
+                "0": "CP437",
+                "1": "CP932",
+                "2": "CP850",
+                "3": "CP860",
+                "4": "CP863",
+                "5": "CP865",
+                "11": "CP851",
+                "12": "CP853",
+                "13": "CP857",
+                "14": "CP737",
+                "15": "ISO_8859-7",
+                "16": "CP1252",
+                "17": "CP866",
+                "18": "CP852",
+                "19": "CP858",
+                "20": "CP949",
+                "21": "CP936",
+                "22": "CP1252",
+                "23": "UTF-8",
+                "30": "TCVN-3-1",
+                "31": "TCVN-3-2",
+                "32": "CP720",
+                "33": "CP775",
+                "34": "CP855",
+                "35": "CP861",
+                "36": "CP862",
+                "37": "CP864",
+                "38": "CP869",
+                "39": "ISO_8859-2",
+                "40": "ISO_8859-15",
+                "41": "CP1098",
+                "45": "CP1250",
+                "46": "CP1251",
+                "47": "CP1253",
+                "48": "CP1254",
+                "49": "CP1255",
+                "50": "CP1256",
+                "51": "CP1257",
+                "52": "CP1258",
+                "53": "RK1048",
+                "255": "Unknown"
+            },
+            "colors": {
+                "0": "black"
+            },
+            "features": {
+                "barcodeA": true,
+                "barcodeB": true,
+                "bitImageColumn": true,
+                "bitImageRaster": true,
+                "graphics": true,
+                "highDensity": true,
+                "paperFullCut": true,
+                "paperPartCut": true,
+                "pdf417Code": true,
+                "pulseBel": false,
+                "pulseStandard": true,
+                "qrCode": true,
+                "starCommands": false
+            },
+            "fonts": {
+                "0": {
+                    "columns": 42,
+                    "name": "Font A"
+                },
+                "1": {
+                    "columns": 56,
+                    "name": "Font B"
+                }
+            },
+            "media": {
+                "dpi": 180,
+                "width": {
+                    "mm": 80,
+                    "pixels": 512
+                }
+            },
+            "name": "TM-T88VI",
+            "notes": "Epson TM-T88VI profile\n",
             "vendor": "Epson"
         },
         "TM-U220": {
